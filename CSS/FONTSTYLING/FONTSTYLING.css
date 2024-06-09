@@ -1,0 +1,73 @@
+ /* CSS untuk styling font */
+  /* Mengubah warna teks menjadi merah */
+  body {
+    color: red;
+  }
+
+  /* Mengubah jenis font menjadi Arial dan fallback ke sans-serif */
+  .judulutama{
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+  }
+  h1, p {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Mengubah ukuran font menjadi 20px */
+  h2 {
+    font-size: 20px;
+  }
+
+  /* Mengubah tebal font menjadi bold */
+  h3 {
+    font-weight: bold;
+  }
+
+  /* Mengubah gaya font menjadi italic */
+  h4 {
+    font-style: italic;
+  }
+
+  /* Mengubah tebal, ukuran, dan jenis font */
+  h5 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  /* Mengubah teks menjadi kapital */
+  h6 {
+    text-transform: uppercase;
+  }
+
+  /* Menambahkan dekorasi teks garis bawah */
+  a {
+    text-decoration: underline;
+  }
+
+  /* Mengatur teks menjadi miring saat dihover */
+  a:hover {
+    font-style: italic;
+  }
+
+  /* Menyesuaikan spasi antar huruf */
+  span {
+    letter-spacing: 2px;
+  }
+
+  /* Menyesuaikan spasi antar kata */
+  div {
+    word-spacing: 5px;
+  }
+
+  /* Mengatur teks menjadi tebal dan miring */
+  em {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /* Mengatur teks menjadi tebal dan miring saat berada di dalam elemen strong */
+  strong em {
+    color: blue; /* Menambahkan warna untuk teks yang tebal dan miring */
+  }

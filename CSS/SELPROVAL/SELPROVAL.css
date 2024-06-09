@@ -1,0 +1,12 @@
+/* Selector Elemen */
+h1 {
+    color: blue;
+  }
+  /* Selector Kelas */
+.button {
+    background-color: green;
+  }
+  /* Selector ID */
+#header {
+    font-size: 24px;
+  }

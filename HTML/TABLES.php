@@ -1,0 +1,72 @@
+<html>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>ANGKATAN</th>
+                <th>NIM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ALIEF</td>
+                <td>2022</td>
+                <td>2022520033</td>
+            </tr>
+            <tr>
+                <td>BADRIT</td>
+                <td>2023</td>
+                <td>2022520033</td>
+            </tr>
+            <tr>
+                <td>TAMAM</td>
+                <td>2024</td>
+                <td>2022520033</td>
+            </tr>
+            <tr>
+                <td>ALIEF</td>
+                <td>2025</td>
+                <td>2022520033</td>
+            </tr>
+        </tbody>
+    </table>
+    <?php include "kembali.php"?>
+</html>
+
+<h2>Kode Asli Dibawah Ini:</h2>
+<pre><code>
+&lt;html&gt;
+    &lt;table border="1"&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Nama&lt;/th&gt;
+                &lt;th&gt;ANGKATAN&lt;/th&gt;
+                &lt;th&gt;NIM&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;ALIEF&lt;/td&gt;
+                &lt;td&gt;2022&lt;/td&gt;
+                &lt;td&gt;2022520033&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;BADRIT&lt;/td&gt;
+                &lt;td&gt;2023&lt;/td&gt;
+                &lt;td&gt;2022520033&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;TAMAM&lt;/td&gt;
+                &lt;td&gt;2024&lt;/td&gt;
+                &lt;td&gt;2022520033&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;ALIEF&lt;/td&gt;
+                &lt;td&gt;2025&lt;/td&gt;
+                &lt;td&gt;2022520033&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;?php include "kembali.php"?&gt;
+&lt;/html&gt;
+</code></pre>

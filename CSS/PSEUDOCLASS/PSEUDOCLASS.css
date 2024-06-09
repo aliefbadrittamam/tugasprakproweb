@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .container {
+    margin-top: 50px;
+  }
+  .button, .link, .text, .italic {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #000;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease; /* Efek transisi untuk perubahan CSS */
+  }
+  /* Efek saat mouse mengarah ke atas */
+  .button:hover {
+    background-color: #ff0000;
+    color: #fff; /* Mengubah warna teks saat dihover */
+  }
+  .link:hover {
+    color: #00ff00; /* Mengubah warna teks saat dihover */
+  }
+  .text:hover {
+    font-size: 18px; /* Mengubah ukuran font saat dihover */
+  }
+  .italic:hover {
+    font-style: italic; /* Mengubah teks menjadi miring saat dihover */
+  }
+/* CSS dengan penggunaan pseudo-class */
+/* Mengubah warna latar belakang saat mouse mengarah ke atas */
+.button:hover {
+    background-color: #ff0000;
+  }
+  
+  /* Mengubah warna teks saat mouse mengarah ke atas */
+  .link:hover {
+    color: #00ff00;
+  }
+  
+  /* Mengubah ukuran font saat mouse mengarah ke atas */
+  .text:hover {
+    font-size: 18px;
+  }
+  
+  /* Mengubah teks menjadi miring saat mouse mengarah ke atas */
+  .italic:hover {
+    font-style: italic;
+  }
+  
